@@ -20,19 +20,7 @@
 
   <body>
     <!-- Nav menu start -->
-    <section>
-        <script>
-            function changeBG() {
-                let navbar = document.getElementById('navbar')
-                let scrollValoue = window.scrollY;
-                if(scrollValoue < 150){
-                navbar.classList.remove('bgColor')
-                }else{
-                navbar.classList.add('bgColor')
-                }
-            }
-            window.addEventListener('scroll', changeBG)
-        </script>
+    <section class="">
       <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container">
           <a class="navbar-brand" href="#">BARRISTER MONWAR HOSSAIN</a>
@@ -87,7 +75,7 @@
     <section class="mt-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 shadow">
+          <div class="col-md-3 shadow">
             <div class="profile__image m-auto">
               <img
                 class="img-fluid"
@@ -95,7 +83,7 @@
                 alt="profile"
               />
             </div>
-            <h3 class="text-center py-1">BARRISTER MONWAR HOSSAIN</h5>
+            <h5 class="text-center py-1">BARRISTER MONWAR HOSSAIN</h5>
 
             <!-- social media information -->
             <div class="profile__incon--section m-auto">
@@ -173,7 +161,7 @@
 
 
           <!-- right site -->
-          <div class="col-md-8">
+          <div class="col-md-8 mx-3 shadow px-3">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 
                 <li class="nav-item mx-3" role="presentation">
@@ -193,7 +181,7 @@
                 </li>
 
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-Quotes-tab" data-bs-toggle="pill" data-bs-target="#pills-Quotes" type="button" role="tab" aria-controls="pills-Quotes" aria-selected="false">Contact</button>
+                  <button class="nav-link" id="pills-Quotes-tab" data-bs-toggle="pill" data-bs-target="#pills-Quotes" type="button" role="tab" aria-controls="pills-Quotes" aria-selected="false">Quotes</button>
                 </li>
 
             </ul>
@@ -243,10 +231,170 @@
                     Shahriar Khaled<br/>
                     Prominent singer and social activist in Bangladesh</p>
                 </div>
-                <div class="tab-pane fade" id="pills-Achievements" role="tabpanel" aria-labelledby="pills-Achievements-tab">...</div>
-                <div class="tab-pane fade" id="pills-Gallery" role="tabpanel" aria-labelledby="pills-Gallery-tab">...</div>
-                <div class="tab-pane fade" id="pills-Charitable" role="tabpanel" aria-labelledby="pills-Charitable-tab">...</div>
-                <div class="tab-pane fade" id="pills-Quotes" role="tabpanel" aria-labelledby="pills-Quotes-tab">...</div>
+                <div class="tab-pane fade" id="pills-Achievements" role="tabpanel" aria-labelledby="pills-Achievements-tab">
+                    <div class="shadow p-3">
+                        <h3 class="border-bottom mb-2">Achievements</h3>
+                        <img class="img-fluid" src="https://barristermonwar.com/frontend/assets/images/slider1.png" alt="Achievements">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Gallery" role="tabpanel" aria-labelledby="pills-Gallery-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award17.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">Who’s Who Bangladesh Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award18.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">Who’s Who Bangladesh Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award10.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">British-Bangladeshi Business Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award11.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">British-Bangladeshi Business Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award13.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">British-Bangladeshi Business Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award14.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">British-Bangladeshi Business Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award15.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">British-Bangladeshi Business 2015 Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award16.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">British-Bangladeshi Business Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="card shadow" style="width: auto;">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/award12.png" class="card-img-top img-fluid" alt="Gallery1">
+                                <div class="card-body">
+                                  <p class="card-text">FOBANA Award.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-Charitable" role="tabpanel" aria-labelledby="pills-Charitable-tab">
+                  <div class="row">
+                    <div class="col-md-6">
+                        <div class="card shadow" style="width: auto;">
+                            <img  src="https://barristermonwar.com/frontend/assets/images/charitable_work1.jpg" class="card-img-top img-fluid" alt="Gallery1">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Work in Chattogram</h5>
+                              <p class="card-text text-center">Carried out huge charitable activities in Chattogram through the Greater Chattogram Association UK and Chattogram Nagorik Forum as the chairman of the both</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card shadow" style="width: auto;">
+                            <img  src="https://barristermonwar.com/frontend/assets/images/charitable_work_2.webp" class="card-img-top img-fluid" alt="Gallery1">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Grocery Help</h5>
+                              <p class="card-text text-center">Carried out huge charitable activities in Chattogram through the Greater Chattogram Association UK and Chattogram Nagorik Forum as the chairman of the both</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card shadow" style="width: auto;">
+                            <img  src="https://barristermonwar.com/frontend/assets/images/charitable_work_3.jpg" class="card-img-top img-fluid" alt="Gallery1">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">British-Bangladeshi Business Award.</h5>
+                              <p class="card-text text-center">He gave ambulance to a voluntary group in Chattogram, particularly for Boalkhali area during the Covid 19 Pandemic. This was very operated by the Gausia Committee.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-Quotes" role="tabpanel" aria-labelledby="pills-Quotes-tab">
+                  <div class="row">
+                    <div class="col-md-6">
+                        <div class="card shadow" style="width: auto;">
+                          <div class="Quotes__img m-auto">
+                            <img  src="https://barristermonwar.com/frontend/assets/images/quotes-1.png" class="card-img-top img-fluid" alt="Gallery1">
+                          </div>
+                            <div class="card-body">
+                              <h5 class="card-text text-center">"ব্যারিস্টার মনোয়ার চট্টগ্রামের রাজনৈতিক, সামাজিক ও সাংস্কৃতিক আন্দোলনের সাথেও যুক্ত ছিলেন । তাঁর বক্তব্যের মধ্যে সারগর্ভ বিষয় থাকতো । আমি আশা: করবো আগামী দিনে আরো বৃহত্তর পরিবেশে তিনি নেতৃত্বের ভূমিকায় অবতীর্ণ হবেন ।"</h5>
+                              <p class="text-center">ড. অনুপম সেন</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card shadow" style="width: auto;">
+                          <div class="Quotes__img m-auto">
+                            <img  src="https://barristermonwar.com/frontend/assets/images/quotes-2.png" class="card-img-top img-fluid" alt="Gallery1">
+                          </div>
+                            
+                            <div class="card-body">
+                              <h5 class="card-text text-center">"কয়েকটি অনুষ্ঠানে বক্তৃতা দেওয়ার সময় তার উপস্থাপনায় সকলের দৃষ্টি আকর্ষণে সমক্ষ হয় । তার বক্তৃতায় কোনো বাগাড়ম্বর ছিল না । ছিল অকাট্য যুক্তি এবং অপর পক্ষের বক্তব্যকে ক্ষুরধার যুক্তির সাহায্যে নিঃসার পরিণত করা ।"</h5>
+                              <p class="text-center">প্রফেসর শায়েস্তা খান</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <div class="card shadow" style="width: auto;">
+                          <div class="Quotes__img m-auto">
+                            <img  src="https://barristermonwar.com/frontend/assets/images/quotes-3.png" class="card-img-top img-fluid" alt="Gallery1">
+                          </div>
+                            <div class="card-body">
+                              <h5 class="card-text text-center">"আমার প্রথম মেয়র নির্বাচনে সকল বিরোধী দলকে একত্রিত করে আমাকে সমর্থন করতে এক গুরুতপূর্ণ ভূমিকা পালন করেছে । মনে হয়, রাজনীতির প্রতি শ্রদ্ধা হারিয়ে সে অভিমান করে উচ্চ শিক্ষার্থে লন্ডনে চলে যায়|"</h5>
+                              <p class="text-center">এবিএম মহিউদ্দিন চৌধুরী</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <div class="card shadow" style="width: auto;">
+                            <div class="Quotes__img m-auto">
+                                <img  src="https://barristermonwar.com/frontend/assets/images/quotes-4.png" class="card-img-top img-fluid" alt="Gallery1">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-text text-center">"ব্যারিস্টার মনোয়ার চট্টগ্রামের উন্নয়নে, আন্দোলনে ও সমাজকর্মে নেতারূপে অগ্রণী ভূমিকা পালন করেছেন । মনোয়ার একজন আদর্শবাদী তরুণ রাজনৈতিক নেতা ছিলেন ।"</h5>
+                              <p class="text-center"> আবদুল্লাহ আল নোমান</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
