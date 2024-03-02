@@ -4,6 +4,73 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif
 }
+
+.card-section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 10px rgb(199, 199, 199);
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+.img-div{
+    height: 350px;
+    width: 100%;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 8px;
+    border-radius: 10px !important;
+}
+
+.card img:hover{
+    cursor: pointer;
+}
+.card p{
+    height: 100px;
+}
+.blog_p{
+    height: 260px !important;
+    overflow: auto;
+}
+
+.gallery-section h2{
+    padding: 6px 10px;
+    background-color: rgb(122, 122, 255);
+    color: white;
+    font-weight: 500;
+}
+
+.gallery-title{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery-section .leftBorder{
+    height: 50px;
+    width: 15px;
+    background-color: rgb(122, 122, 255);
+    border-radius: 5px 0 0 5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif
+}
 .navbar-toggler, .navbar-toggler collapsed{
     background-color: #2FF093 !important;
     outline: none !important;
