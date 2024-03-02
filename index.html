@@ -1,101 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Lato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
-    <title>Document</title>
-  </head>
 
-  <body>
-    <!-- Nav menu start -->
-    <section>
-        <script>
-            function changeBG() {
-                let navbar = document.getElementById('navbar')
-                let scrollValoue = window.scrollY;
-                if(scrollValoue < 150){
-                navbar.classList.remove('bgColor')
-                }else{
-                navbar.classList.add('bgColor')
-                }
-            }
-            window.addEventListener('scroll', changeBG)
-        </script>
-      <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container">
-          <a class="navbar-brand" href="#">BARRISTER MONWAR HOSSAIN</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0 mx-5 py-3">
-              <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#">
-                  PROFILE (BANGLA)</a
-                >
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >PROFILE (ENGLISH)</a
-                >
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#">BOOK</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >GALLERY</a
-                >
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >VIDEOS</a
-                >
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >BLOGS</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section>
-    <!-- Nav menu end -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
+  <title>Document</title>
+</head>
 
-    <section class="mt-5">
+<body>
+  <!-- Nav menu start -->
+  <section>
+    <script>
+      function changeBG() {
+        let navbar = document.getElementById('navbar')
+        let scrollValoue = window.scrollY;
+        if (scrollValoue < 150) {
+          navbar.classList.remove('bgColor')
+        } else {
+          navbar.classList.add('bgColor')
+        }
+      }
+      window.addEventListener('scroll', changeBG)
+    </script>
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4 shadow">
-            <div class="profile__image m-auto">
-              <img
-                class="img-fluid"
-                src="https://barristermonwar.com/frontend/assets/images/545.jpg"
-                alt="profile"
-              />
-            </div>
-            <h3 class="text-center py-1">BARRISTER MONWAR HOSSAIN</h5>
+        <a class="navbar-brand nav-link active nav-active" href="index.html">BARRISTER MONWAR HOSSAIN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 mx-5 py-3">
+              <li class="nav-item mx-3">
+                  <a class="nav-link" aria-current="page" href="#"> PROFILE (BANGLA)</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link"  href="#">PROFILE (ENGLISH)</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link" href="book.html">BOOK</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link" href="gallery.html">GALLERY</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link" href="videos.html">VIDEOS</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link" href="blogs.html">BLOGS</a>
+              </li>
+          </ul>
+      </div>
+      </div>
+    </nav>
+  </section>
+  <!-- Nav menu end -->
+
+  <section class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 shadow">
+          <div class="profile__image m-auto">
+            <img class="img-fluid shadow" src="https://barristermonwar.com/frontend/assets/images/545.jpg" alt="profile" />
+          </div>
+          <h4 class="text-center fw-bold py-1">BARRISTER MONWAR HOSSAIN</h5>
 
             <!-- social media information -->
             <div class="profile__incon--section m-auto">
@@ -144,115 +122,187 @@
             </div>
 
             <!-- personal book information -->
-            <div class="Writer__book--section m-auto my-4">
-                <h4 class="text-center py-3">A BOOK OF HONOUR <br/>"INDOMITABLE MONWAR HOSSAIN"</h4>
-              <img
-                class="img-fluid"
-                src="https://barristermonwar.com/frontend/assets/images/book_edition_2.png"
-                alt="profile"
-              />
+            <a href="book.html" class="Writer__book--section m-auto my-4">
+              <h4 class="text-center py-3">A BOOK OF HONOUR <br />"INDOMITABLE MONWAR HOSSAIN"</h4>
+              <img class="img-fluid" src="https://barristermonwar.com/frontend/assets/images/book_edition_2.png"
+                alt="profile" />
               <p class="text-center py-2">Edition 2 (Click To Read)</p>
-            </div>
+            </a>
 
             <!-- last aditon book information -->
             <div class="Writer__book--section m-auto my-4">
               <div class="Writer__book--section--content">
                 <div class="book__adition">
-                  <img
-                    class="img-fluid"
-                    src="https://barristermonwar.com/frontend/assets/images/book1.jpg"
-                    alt="book"
-                  />
+                  <img class="img-fluid" src="https://barristermonwar.com/frontend/assets/images/book1.jpg"
+                    alt="book" />
                 </div>
                 <div>
                   <h5 class="mt-4">Edition 1</h5>
                 </div>
               </div>
             </div>
-          </div>
+        </div>
 
 
-          <!-- right site -->
-          <div class="col-md-8">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                
-                <li class="nav-item mx-3" role="presentation">
-                  <button class="nav-link active" id="pills-About-tab" data-bs-toggle="pill" data-bs-target="#pills-About" type="button" role="tab" aria-controls="pills-About" aria-selected="true">About</button>
-                </li>
+        <!-- right site -->
+        <div class="col-md-8">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 
-                <li class="nav-item mx-3" role="presentation">
-                  <button class="nav-link" id="pills-Achievements-tab" data-bs-toggle="pill" data-bs-target="#pills-Achievements" type="button" role="tab" aria-controls="pills-Achievements" aria-selected="false">Achievements</button>
-                </li>
+            <li class="nav-item mx-3" role="presentation">
+              <button class="nav-link active" id="pills-About-tab" data-bs-toggle="pill" data-bs-target="#pills-About"
+                type="button" role="tab" aria-controls="pills-About" aria-selected="true">About</button>
+            </li>
 
-                <li class="nav-item mx-3" role="presentation">
-                  <button class="nav-link" id="pills-Gallery-tab" data-bs-toggle="pill" data-bs-target="#pills-Gallery" type="button" role="tab" aria-controls="pills-Gallery" aria-selected="false">Awards Gallery</button>
-                </li>
+            <li class="nav-item mx-3" role="presentation">
+              <button class="nav-link" id="pills-Achievements-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-Achievements" type="button" role="tab" aria-controls="pills-Achievements"
+                aria-selected="false">Achievements</button>
+            </li>
 
-                <li class="nav-item mx-3" role="presentation">
-                  <button class="nav-link" id="pills-Charitable-tab" data-bs-toggle="pill" data-bs-target="#pills-Charitable" type="button" role="tab" aria-controls="pills-Charitable" aria-selected="false">Charitable Work</button>
-                </li>
+            <li class="nav-item mx-3" role="presentation">
+              <button class="nav-link" id="pills-Gallery-tab" data-bs-toggle="pill" data-bs-target="#pills-Gallery"
+                type="button" role="tab" aria-controls="pills-Gallery" aria-selected="false">Awards Gallery</button>
+            </li>
 
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-Quotes-tab" data-bs-toggle="pill" data-bs-target="#pills-Quotes" type="button" role="tab" aria-controls="pills-Quotes" aria-selected="false">Contact</button>
-                </li>
+            <li class="nav-item mx-3" role="presentation">
+              <button class="nav-link" id="pills-Charitable-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-Charitable" type="button" role="tab" aria-controls="pills-Charitable"
+                aria-selected="false">Charitable Work</button>
+            </li>
 
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-About" role="tabpanel" aria-labelledby="pills-About-tab">
-                    <h3 class="border-bottom">BARRISTER MONWAR HOSSAIN IS</h3>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-Quotes-tab" data-bs-toggle="pill" data-bs-target="#pills-Quotes"
+                type="button" role="tab" aria-controls="pills-Quotes" aria-selected="false">Contact</button>
+            </li>
 
-                    <div>
-                        <div class="row">
-                            <div class="col-md-6 fw-bold"><p>1. A PROMINENT HUMAN RIGHTS AND SPECIALISED IMMIGRATION LAWYER IN THE UK.</p></div>
-                            <div class="col-md-6 fw-bold"><p>4. A WELL KNOWN SOCIAL ACTIVIST IN BANGLADESH AND ABROAD.</p></div>
-                            <div class="col-md-6 fw-bold"><p>2. A DEVOTED SOCIAL LEADER FOR WELFARE OF THE EXPATRIATES BANGLADESH COMMUNITY.</p></div>
-                            <div class="col-md-6 fw-bold"><p>5. A SCULPTURIST OF THE MOVEMENT FOR THE CHATTOGRAM DEVELOPMENT.</p></div>
-                            <div class="col-md-6 fw-bold"><p>3. AN INTERNATIONAL HUMAN RIGHTS ORGANISER.</p></div>
-                            <div class="col-md-6 fw-bold"><p>6. A FORMER POPULER CENTRAL STUDENT LEADER IN BANGLADESH.</p></div>
-                        </div>
-                    </div>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-About" role="tabpanel" aria-labelledby="pills-About-tab">
+              <h3 class="border-bottom">BARRISTER MONWAR HOSSAIN IS</h3>
 
-                    <p class="about__info">Once a spirited teenage boy from Chattogram Govt. Nasirabad School, now Barrister Monwar Hossain climbed the ladder of success and took strides to become recognised internationally as a trailblazer in the Chittagonian community.
-                    Monwar Hossain who was also known to many as Monwar Ahmed shares a colourful personality and possesses multi dimensional talents. He has a deep connection to the protection of human rights, firm conviction in democracy, tremendous enthusiasm for development of Chattogram and welfare of the expatriate Bangladesh community. Barrister Monwar Hossain's journey started in Chattogram, a city of spectacular natural beauty with evergreen landscapes.
-                    
-                    His father Dr Nurul Huda was a renowned physician and a fearless freedom fighter, and his mother Syeda Akhtar Jahan was a housewife. His two elder brothers were also freedom fighters. Barrister Monwar honed his leadership skills throughout his schooling life at Chattogram Nasirabad Boys High School, a school that offered various activities to develop leadership qualities in students such as delivering speeches on specific issues in the assembly every week. He was elected AGS of the Student Union when he was in 8th grade and GS at the ninth grade. He was also awarded for giving a speech at the Rabindra-Nazrul-Golden jubilee celebration program. Barrister Monwar passed the School Secondary Examination in 1976 and was admitted to Chattogram Government Commerce College. He viewed that the foundations in his schooling life had laid the foundation of his ability as an orator in the latter years of his life where he won prizes at the national level in the college and university debate competitions. In addition, Barrister Monwar has a keen interest in the promotion of Bangladeshi art, literature, and culture. During student life, he was also involved in publishing many magazines and periodicals, contributed to various cultural activities.
-                    
-                    Barrister Monwar actively took part in mass movements, meetings, and processions during the 70s period. As an all-round activist and prominent leader of the Bangladesh Students Union, Barrister Monwar also orchestrated the movement in Chattogram against the regimes of General Zia and Ershad. He participated in the first demonstration while he was a 10th grade school student in Chattogram in 1975 against the killing of Bangabandhu and his family members. Barrister Monwar is a pioneer of the thought that education promotes peace which allows for progress. He embarked on a relentless battle to bring the student community under the banner of the Bangladesh Students Union not only in Chattogram city, but he also devoted himself to establishing a non- discriminatory society at the grass-root level. His proactive demeanor and speeches touched the hearts and minds of many. He was a popular student leader in the University of Chattogram and also he was well known to students nationally because of leadership role against the autocratic government of General Ershad.
-                    
-                    After completing his masters degree from the University of Chattogram in 1985, he became more involved with the challenging responsibilities in the students and mass politics.
-                    
-                    In 1987 Barrister Monwar successfully initiated and took a significant role during the Chaktai Canal Re-excavation Movement to eradicate water-logging problems of Chattogram city. He then in 1988 initiated and successfully formed the "Greater Chttaogram Development Mass Action Committee" (still this is in existence as the Brihattar Chattogram Unnoyan Sangram Committee) and led many movements including a long 48 hours general strike in 1989 all over the greater Chattaogram to implement 15 points demands for transforming Chattogram into a modern and smart city. The then-governments eventually acknowledged and promised to implement all the demands It should be mentioned here that, he was detained twice arbitrarily and kept in the Central Jail of Chattogram for long periods only because of his active role for the democracy and Chattogram development. At the same time he became advisors to many industrical and profesonal tree onions Chattogram.
-                    
-                    No doubt, we the Chittagonians will remain indebted to him for his contribution and dedication.
-                    
-                    Barrister Monwar moved to the United Kingdom in 1994 to pursue higher education and qualified as a barrister at the prestigious Lincoln's Inn in London in 1998. He has became an exceptionally skilled and a well-known barrister in England. He has provided legal assistance to thousands of Bangladeshi immigrants in the United Kingdom to settle there permanently.
-                    
-                    His success rates in immigration and human rights related court cases in England are highly satisfactory.
-                    
-                    He has become a celebrity lawyer as he first pioneered the live legal shows in on the Bangla TV in London in 2002 titled "Your Rights" and he is still running a show titled "Law with Barrister Monwar Hossain" on the ION TV.
-                    
-                    In addition to his legal work he takes part in the talk shows on social-politcal and legal issues in Bangladesh and UK.
-                    
-                    Barrister Monwar continued to be involved in political and social discourse and activism towards the welfare of the Chittagonian and Bangladeshi expatriate community in the UK. His strides in this political arena brought on international attention and his reputation as a leader of the community and supporter of working-class causes was inevitably recognised. Inspired by the principles of equal rights and non-discrimination, Barrister Monwar devotes himself to the welfare of the less fortunate in society. He is still outspoken for the citizens rights of Chattogram and this is why since 2015 he has been oraginsing many activities under the banner of Chattogram Nagorik Forum as its Chairman. He has played an important role to implement the Mega-project to permanently eradicate the water logging problem in the City of Chattogram.
-                    
-                    It is time for Chattogram to continue on a path for change and improvement of the city. Barrister Monwar's conscious and courageous personality will certainly bring progress through creative solutions in considering every house hold of Chattogram and his leadership would allow the progress of Chattogram to be seen as a full-fledged commercial capital by solving various problems including water-logging.
-                    
-                    No doubt, he is an example for the young generation.<br/><br/>
-                    
-                    Written by :<br/>
-                    Shahriar Khaled<br/>
-                    Prominent singer and social activist in Bangladesh</p>
+              <div>
+                <div class="row">
+                  <div class="col-md-6 fw-bold">
+                    <p>1. A PROMINENT HUMAN RIGHTS AND SPECIALISED IMMIGRATION LAWYER IN THE UK.</p>
+                  </div>
+                  <div class="col-md-6 fw-bold">
+                    <p>4. A WELL KNOWN SOCIAL ACTIVIST IN BANGLADESH AND ABROAD.</p>
+                  </div>
+                  <div class="col-md-6 fw-bold">
+                    <p>2. A DEVOTED SOCIAL LEADER FOR WELFARE OF THE EXPATRIATES BANGLADESH COMMUNITY.</p>
+                  </div>
+                  <div class="col-md-6 fw-bold">
+                    <p>5. A SCULPTURIST OF THE MOVEMENT FOR THE CHATTOGRAM DEVELOPMENT.</p>
+                  </div>
+                  <div class="col-md-6 fw-bold">
+                    <p>3. AN INTERNATIONAL HUMAN RIGHTS ORGANISER.</p>
+                  </div>
+                  <div class="col-md-6 fw-bold">
+                    <p>6. A FORMER POPULER CENTRAL STUDENT LEADER IN BANGLADESH.</p>
+                  </div>
                 </div>
-                <div class="tab-pane fade" id="pills-Achievements" role="tabpanel" aria-labelledby="pills-Achievements-tab">...</div>
-                <div class="tab-pane fade" id="pills-Gallery" role="tabpanel" aria-labelledby="pills-Gallery-tab">...</div>
-                <div class="tab-pane fade" id="pills-Charitable" role="tabpanel" aria-labelledby="pills-Charitable-tab">...</div>
-                <div class="tab-pane fade" id="pills-Quotes" role="tabpanel" aria-labelledby="pills-Quotes-tab">...</div>
+              </div>
+
+              <p class="about__info">Once a spirited teenage boy from Chattogram Govt. Nasirabad School, now Barrister
+                Monwar Hossain climbed the ladder of success and took strides to become recognised internationally as a
+                trailblazer in the Chittagonian community.
+                Monwar Hossain who was also known to many as Monwar Ahmed shares a colourful personality and possesses
+                multi dimensional talents. He has a deep connection to the protection of human rights, firm conviction
+                in democracy, tremendous enthusiasm for development of Chattogram and welfare of the expatriate
+                Bangladesh community. Barrister Monwar Hossain's journey started in Chattogram, a city of spectacular
+                natural beauty with evergreen landscapes.
+
+                His father Dr Nurul Huda was a renowned physician and a fearless freedom fighter, and his mother Syeda
+                Akhtar Jahan was a housewife. His two elder brothers were also freedom fighters. Barrister Monwar honed
+                his leadership skills throughout his schooling life at Chattogram Nasirabad Boys High School, a school
+                that offered various activities to develop leadership qualities in students such as delivering speeches
+                on specific issues in the assembly every week. He was elected AGS of the Student Union when he was in
+                8th grade and GS at the ninth grade. He was also awarded for giving a speech at the
+                Rabindra-Nazrul-Golden jubilee celebration program. Barrister Monwar passed the School Secondary
+                Examination in 1976 and was admitted to Chattogram Government Commerce College. He viewed that the
+                foundations in his schooling life had laid the foundation of his ability as an orator in the latter
+                years of his life where he won prizes at the national level in the college and university debate
+                competitions. In addition, Barrister Monwar has a keen interest in the promotion of Bangladeshi art,
+                literature, and culture. During student life, he was also involved in publishing many magazines and
+                periodicals, contributed to various cultural activities.
+
+                Barrister Monwar actively took part in mass movements, meetings, and processions during the 70s period.
+                As an all-round activist and prominent leader of the Bangladesh Students Union, Barrister Monwar also
+                orchestrated the movement in Chattogram against the regimes of General Zia and Ershad. He participated
+                in the first demonstration while he was a 10th grade school student in Chattogram in 1975 against the
+                killing of Bangabandhu and his family members. Barrister Monwar is a pioneer of the thought that
+                education promotes peace which allows for progress. He embarked on a relentless battle to bring the
+                student community under the banner of the Bangladesh Students Union not only in Chattogram city, but he
+                also devoted himself to establishing a non- discriminatory society at the grass-root level. His
+                proactive demeanor and speeches touched the hearts and minds of many. He was a popular student leader in
+                the University of Chattogram and also he was well known to students nationally because of leadership
+                role against the autocratic government of General Ershad.
+
+                After completing his masters degree from the University of Chattogram in 1985, he became more involved
+                with the challenging responsibilities in the students and mass politics.
+
+                In 1987 Barrister Monwar successfully initiated and took a significant role during the Chaktai Canal
+                Re-excavation Movement to eradicate water-logging problems of Chattogram city. He then in 1988 initiated
+                and successfully formed the "Greater Chttaogram Development Mass Action Committee" (still this is in
+                existence as the Brihattar Chattogram Unnoyan Sangram Committee) and led many movements including a long
+                48 hours general strike in 1989 all over the greater Chattaogram to implement 15 points demands for
+                transforming Chattogram into a modern and smart city. The then-governments eventually acknowledged and
+                promised to implement all the demands It should be mentioned here that, he was detained twice
+                arbitrarily and kept in the Central Jail of Chattogram for long periods only because of his active role
+                for the democracy and Chattogram development. At the same time he became advisors to many industrical
+                and profesonal tree onions Chattogram.
+
+                No doubt, we the Chittagonians will remain indebted to him for his contribution and dedication.
+
+                Barrister Monwar moved to the United Kingdom in 1994 to pursue higher education and qualified as a
+                barrister at the prestigious Lincoln's Inn in London in 1998. He has became an exceptionally skilled and
+                a well-known barrister in England. He has provided legal assistance to thousands of Bangladeshi
+                immigrants in the United Kingdom to settle there permanently.
+
+                His success rates in immigration and human rights related court cases in England are highly
+                satisfactory.
+
+                He has become a celebrity lawyer as he first pioneered the live legal shows in on the Bangla TV in
+                London in 2002 titled "Your Rights" and he is still running a show titled "Law with Barrister Monwar
+                Hossain" on the ION TV.
+
+                In addition to his legal work he takes part in the talk shows on social-politcal and legal issues in
+                Bangladesh and UK.
+
+                Barrister Monwar continued to be involved in political and social discourse and activism towards the
+                welfare of the Chittagonian and Bangladeshi expatriate community in the UK. His strides in this
+                political arena brought on international attention and his reputation as a leader of the community and
+                supporter of working-class causes was inevitably recognised. Inspired by the principles of equal rights
+                and non-discrimination, Barrister Monwar devotes himself to the welfare of the less fortunate in
+                society. He is still outspoken for the citizens rights of Chattogram and this is why since 2015 he has
+                been oraginsing many activities under the banner of Chattogram Nagorik Forum as its Chairman. He has
+                played an important role to implement the Mega-project to permanently eradicate the water logging
+                problem in the City of Chattogram.
+
+                It is time for Chattogram to continue on a path for change and improvement of the city. Barrister
+                Monwar's conscious and courageous personality will certainly bring progress through creative solutions
+                in considering every house hold of Chattogram and his leadership would allow the progress of Chattogram
+                to be seen as a full-fledged commercial capital by solving various problems including water-logging.
+
+                No doubt, he is an example for the young generation.<br /><br />
+
+                Written by :<br />
+                Shahriar Khaled<br />
+                Prominent singer and social activist in Bangladesh</p>
             </div>
+            <div class="tab-pane fade" id="pills-Achievements" role="tabpanel" aria-labelledby="pills-Achievements-tab">
+              ...</div>
+            <div class="tab-pane fade" id="pills-Gallery" role="tabpanel" aria-labelledby="pills-Gallery-tab">...</div>
+            <div class="tab-pane fade" id="pills-Charitable" role="tabpanel" aria-labelledby="pills-Charitable-tab">...
+            </div>
+            <div class="tab-pane fade" id="pills-Quotes" role="tabpanel" aria-labelledby="pills-Quotes-tab">...</div>
           </div>
         </div>
       </div>
-    </section>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/all.min.js"></script>
-  </body>
+    </div>
+  </section>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+
 </html>
